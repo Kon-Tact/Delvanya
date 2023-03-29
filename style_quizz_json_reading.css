@@ -26,7 +26,7 @@
     margin-top: 15%;
     margin-left: 4%;
     margin-right: 0;
-
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 #options-container {
@@ -41,6 +41,9 @@
 h2 {
     text-indent: 50px;
     font-size: 2.5em;
+}
+
+.text-focus-in-animation {
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
@@ -67,10 +70,6 @@ input[type=radio] {
     height: 20px;
     vertical-align: super;
     opacity: 0;
-}
-
-input[type=radio]:checked {
-    animation: pulse 1s linear 1;
 }
 
 button {
