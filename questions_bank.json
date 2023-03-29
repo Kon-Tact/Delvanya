@@ -1,0 +1,152 @@
+{
+    "questions" : [
+        {
+            "id": "q1",
+            "text": "Question 1 : Les vacances approchent et la grande question revient comme chaque annees ! Ou preferez vous passer votre temps ?",
+            "options": [
+                {
+                    "value": "plage",
+                    "text": "La plage",
+                    "weight": 3
+                },
+                {
+                    "value": "montagne",
+                    "text": "La montagne",
+                    "weight": 3
+                },
+                {
+                    "value": "forêt",
+                    "text": "La forêt",
+                    "weight": 3
+                }
+            ]
+                
+        },
+        {
+            "id": "q2",
+            "text": "Question 2 : Dans la vie on s'accorde a dire que vous etes plutot :",
+            "options": [
+                {
+                    "value": "jungle",
+                    "text": "Une tete brulee aventureuse",
+                    "weight": 2
+                },
+                {
+                    "value": "sites_historiques",
+                    "text": "Reflechis et consciencieux(se)",
+                    "weight": 2
+                },
+                {
+                    "value": "île",
+                    "text": "Explorateur passione(e)",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "text": "Question 3 : Vous preferez generalement passer du temps dans des lieux :",
+            "options": [
+                {
+                    "value": "ville",
+                    "text": "Populaires",
+                    "weight": 2
+                },
+                {
+                    "value": "forêt",
+                    "text": "Verdoyants",
+                    "weight": 2
+                },
+                {
+                    "value": "sites_historiques",
+                    "text": "Charges d'histoire",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "text": "Question 4 : Quand on vous parle d'un bon bol d'air frais vous pensez directement ?",
+            "options": [
+                {
+                    "value": "montagne",
+                    "text": "L'air frais de la montagne !",
+                    "weight": 3
+                },
+                {
+                    "value": "plage",
+                    "text": "L'air vivifiant et charge d'ecumes de la mer !",
+                    "weight": 2
+                },
+                {
+                    "value": "jungle",
+                    "text": "L'air riche et sauvage d'une jungle luxuriante !",
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "id": "q5",
+            "text": "Question 5 : C'est decide ! Aujourd'hui vous dormez a la belle etoile ! Quel sera votre point de chute ?",
+            "options": [
+                {
+                    "value": "île",
+                    "text": "Une ile. Enfin un peu de tranquilite.",
+                    "weight": 3
+                },
+                {
+                    "value": "montagne",
+                    "text": "La montagne",
+                    "weight": 3
+                },
+                {
+                    "value": "forêt",
+                    "text": "La forêt",
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "id": "q6",
+            "text": "Question 6 : Vous vous etes bien reposes mais a present vous avez envie de faire voyager votre esprit et de vous interogger. Qu'est-ce qui pique votre interet ?",
+            "options": [
+                {
+                    "value": "ville",
+                    "text": "D'anciennes ecritures mysterieuse sur une stele dans un musee",
+                    "weight": 2
+                },
+                {
+                    "value": "jungle",
+                    "text": "La ruine de ce qui pourrait bien etre un ancien temple.",
+                    "weight": 3
+                },
+                {
+                    "value": "île",
+                    "text": "Une vieille epave abandonnee.",
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "id": "q7",
+            "text": "Question 7 : En rentrant, vous decidez d'acheter un livre car vous etes loin d'avoir suffisamment profite de vos vacances",
+            "options": [
+                {
+                    "value": "ville",
+                    "text": "\"Les coins les plus meirveilleux de votre localite\"",
+                    "weight": 3
+                },
+                {
+                    "value": "sites_historiques",
+                    "text": "\"Les lieux historiques incoutournables\"",
+                    "weight": 3
+                },
+                {
+                    "value": "plage",
+                    "text": "\"Les plus belles plages du mondes\"",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}
