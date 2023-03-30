@@ -34,16 +34,13 @@ const questionText = document.getElementById('question-text');
 
 const imgAlert = document.getElementById('clem_hm');
 const bulleAlert = document.getElementById('bulle_alert');
-const textAlert = document.getElementById('text_alert')
 
 if (imgAlert.style.opacity === '1') {
     imgAlert.style.opacity = '0'
     bulleAlert.style.opacity = '0'
-    textAlert.style.opacity = '0'
 } else {
     imgAlert.style.opacity = '0';
     bulleAlert.style.opacity = '0'
-    textAlert.style.opacity = '0'
 }
 
 // Charger les données du fichier JSON
