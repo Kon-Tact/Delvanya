@@ -47,7 +47,7 @@ if (imgAlert.style.opacity === '1') {
 }
 
 // Charger les données du fichier JSON
-fetch('http://localhost:8000/questions_bank.json')
+fetch('questions_bank.json')
     .then(response => response.json())
     .then(data => {
         // Stocker les questions dans une variable
