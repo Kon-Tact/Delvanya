@@ -1,0 +1,166 @@
+/* éléments html */
+body {
+    font-family: 'sketched_font';
+    margin: 0;
+    padding: 0;
+    background-color:peachpuff;
+}
+
+button {
+    font-size: 4em;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 17%;
+    font-family: 'sketched_font';
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+
+button img {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    display: block;
+    width: 40%;
+    height: auto;
+}
+
+* {
+    -webkit-user-select: none;
+    /* Pour les navigateurs basés sur WebKit (Chrome, Safari) */
+    -moz-user-select: none;
+    /* Pour les navigateurs basés sur Gecko (Firefox) */
+    -ms-user-select: none;
+    /* Pour les navigateurs basés sur Trident (Internet Explorer) */
+    user-select: none;
+}
+
+h2 {
+    text-indent: 50px;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 50px;
+    font-size: 3em;
+    position: relative;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+canvas {
+    /*border: 1px solid black;*/
+    transform: translateY(-8px);
+    margin-top: 20px;
+}
+
+p {
+    font-size: 3em;
+    margin-left: 20%;
+}
+
+span {
+    vertical-align: super;
+}
+
+input[type=radio] {
+    opacity: 0;
+}
+/* éléments html */
+
+
+/* Classes html */
+/* partie de gestion du background random */
+.random-background {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 130% ;
+}
+/* partie de gestion du background random */
+
+.text-focus-in-animation {
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+/* Classes html */
+
+/* ID Html */
+#global-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#questions-container,
+#options-container {   
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#questions-container {
+    width: 85%;
+    height: auto;
+    margin-top: 8%;
+    margin-left: 10%;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+#options-container {
+    width: 80%;
+    height: auto;
+    margin-top: 8%;
+    margin-left: 3%;
+    text-align: center;
+}
+
+/* partie de gestion du click sans sélection de réponse */
+#clem_hm {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    bottom: 0;
+    left: 10%;
+}
+
+#text_alert {
+    text-align: center;
+    position: absolute;
+    font-size: 2.5em;
+    bottom: 19%;
+    left: 6%;
+}
+
+#bulle_alert {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    bottom: 6%;
+    left: 0%;
+}
+
+/* partie de gestion du click sans sélection de réponse */
+/* ID Html */
+
+/* Font */
+@font-face {
+    font-family: 'sketched_font';
+    src: url(font/the\ unseen.ttf);
+
+}
+/* Font */
+
+/* Animations */
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+/* Animations */
