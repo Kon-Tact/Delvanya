@@ -124,14 +124,6 @@ input[type=radio] {
     left: 10%;
 }
 
-#text_alert {
-    text-align: center;
-    position: absolute;
-    font-size: 2.5em;
-    bottom: 19%;
-    left: 0%;
-}
-
 #bulle_alert {
     position: absolute;
     width: 50%;
