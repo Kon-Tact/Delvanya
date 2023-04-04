@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - Delvanya</title>
+    <link href="style/style_index.css" rel="stylesheet" />
+    <script src="script/mobile_verify.js"></script>
+</head>
+
+<body>
+    <div class="global-container">
+        <img class="clem_present" src="images/clem_greetings.png">
+
+        <div class="quizz_lieux_container">
+            <img class="quizz_lieux_image" src="images/map+cadre.png">
+            <h2 class="text_quizz_lieux">Quizz de provenance</h2>
+        </div>
+
+        <div class="quizz_bestiaire_container">
+            <img class="quizz_bestiaire_image" src="images/quizz_bestiaire.png">
+            <h2 class="text_quizz_bestiaire">Quizz d'animal totem</h2>
+        </div>
+
+        <div class="quizz_don_container">
+            <img class="quizz_don_image" src="images/quizz_don.png">
+            <h2 class="text_quizz_don">Quizz des dons</h2>
+        </div>
+    </div>
+
+    <button class="next-button hidden" onclick="goQuizz()"><img src="images/arrow_1.png" alt="next_button"></button>
+
+    <script>
+        var quizz = 0;
+
+        const img_lieux = document.querySelector('.quizz_lieux_image');
+        const img_bestiaire = document.querySelector('.quizz_bestiaire_image');
+        const img_don = document.querySelector('.quizz_don_image');
+        const div_lieux = document.querySelector('.quizz_lieux_container');
+        const div_bestiaire = document.querySelector('.quizz_bestiaire_container');
+        const div_don = document.querySelector('.quizz_don_container');
+
+        div_lieux.addEventListener('click', () => {
+            div_lieux.classList.add('selected');
+            div_bestiaire.classList.remove('selected');
+            div_don.classList.remove('selected');
+            img_lieux.classList.add('rotate');
+            setTimeout(function () {
+                img_lieux.classList.remove('rotate');
+            }, 650);
+            buttonPop();
+            quizz = 1;
+        });
+
+        div_bestiaire.addEventListener('click', () => {
+            div_bestiaire.classList.add('selected');
+            div_lieux.classList.remove('selected');
+            div_don.classList.remove('selected');
+            img_bestiaire.classList.add('rotate');
+            setTimeout(function () {
+                img_bestiaire.classList.remove('rotate');
+            }, 650);
+            buttonPop();
+            quizz = 2;
+        });
+
+        div_don.addEventListener('click', () => {
+            div_don.classList.add('selected');
+            div_lieux.classList.remove('selected');
+            div_bestiaire.classList.remove('selected');
+            img_don.classList.add('rotate');
+            setTimeout(function () {
+                img_don.classList.remove('rotate');
+            }, 650);
+            buttonPop();
+            quizz = 3;
+        });
+
+        function buttonPop() {
+            const btn = document.querySelector('.next-button');
+            btn.classList.remove('hidden');
+        }
+
+        function goQuizz() {
+            switch (quizz) {
+                case 1: window.location.href = "quizz_lieux.html";
+                    console.log(quizz);
+                    break;
+                case 2: window.location.href = "quizz_bestiaire.html";
+                    console.log(quizz);
+                    break;
+                case 3: window.location.href = "quizz_don.html";
+                    console.log(quizz);
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>

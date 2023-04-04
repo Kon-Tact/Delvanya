@@ -1,0 +1,124 @@
+* {
+    -webkit-user-select: none;
+    /* Pour les navigateurs basés sur WebKit (Chrome, Safari) */
+    -moz-user-select: none;
+    /* Pour les navigateurs basés sur Gecko (Firefox) */
+    -ms-user-select: none;
+    /* Pour les navigateurs basés sur Trident (Internet Explorer) */
+    user-select: none;
+    font-family: 'sketched_font';
+}
+
+body {
+    background-image: url(../images/half_notebook_cafe_resized_4a.png);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    margin: 0;
+    background-color: peachpuff;
+}
+
+button img {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+.selected {
+    border: 3px solid black;
+    border-radius: 5%;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.quizz_lieux_container {
+    padding: 2%;
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 10%;
+    height: auto;
+    display: inline-block;
+}
+
+.quizz_bestiaire_container {
+    padding: 2%;
+    width: 40%;
+    height: auto;
+    margin-left: 50%;
+    margin-top: 0;
+    height: auto;
+    display: inline-block;
+}
+
+.quizz_don_container {
+    padding: 2%;
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: auto;
+    display: inline-block;
+}
+
+.quizz_don_image {
+    width: 100%;
+    height: auto;
+}
+
+.quizz_lieux_image {
+    width: 100%;
+    height: auto;
+}
+
+.quizz_bestiaire_image {
+    width: 100%;
+    height: auto;
+}
+
+.rotate {
+    animation: rotate-scale-up 0.65s linear both;
+}
+
+.text_quizz_bestiaire {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 2;
+}
+
+.text_quizz_lieux {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 2;
+}
+
+.text_quizz_don {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 2;
+}
+
+@font-face {
+    font-family: 'sketched_font';
+    src: url(../font/the\ unseen.ttf);
+}
+
+
+
+@keyframes rotate-scale-up {
+    0% {
+        transform: scale(1) rotateZ(0);
+    }
+
+    50% {
+        transform: scale(1.3) rotateZ(180deg);
+    }
+
+    100% {
+        transform: scale(1) rotateZ(360deg);
+    }
+}

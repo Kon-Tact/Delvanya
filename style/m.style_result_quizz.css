@@ -1,0 +1,125 @@
+* {
+    font-family: 'sketched_font';
+    -webkit-user-select: none;
+    /* Pour les navigateurs basés sur WebKit (Chrome, Safari) */
+    -moz-user-select: none;
+    /* Pour les navigateurs basés sur Gecko (Firefox) */
+    -ms-user-select: none;
+    /* Pour les navigateurs basés sur Trident (Internet Explorer) */
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: peachpuff;
+    background-image: url(../images/half_notebook_cafe_resized_6b.png);
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1;
+}
+
+button {
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border: 0;
+}
+
+p {
+    font-size: 2em;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+input[type=text]{
+    padding-top: 10px;
+    border: none;
+}
+
+input[type=text]:focus{
+    border-bottom: 2px solid ;
+}
+
+.hidden {
+    display: none; 
+}
+
+.hidden_ask {
+    display: none;
+}
+
+.pseudo_holder {
+    border: 0;
+    font-size: 2.5em;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+.global_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_container,
+.text_container,
+.download_btn_container {
+    /*border: 3px solid black;*/
+    overflow: hidden;
+}
+
+.img_container {
+    width: 80%;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_container {
+    width: 90%;
+    height: auto;
+    margin-top: 4%;
+    padding: 5%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.download_btn_container {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.no_btn{
+    margin-left: 50px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resultat_lieu {
+    font-size: 2em;
+}
+
+@font-face {
+    font-family: 'sketched_font';
+    src: url(../font/the\ unseen.ttf);
+}
