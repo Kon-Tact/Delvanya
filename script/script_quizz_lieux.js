@@ -2,12 +2,11 @@
 //List de lieux
 const lieux = {
     draerg: 0,
-    falaise_de_sinoone: 0,
-    village_dorighanh: 0,
-    village_de_spaenha: 0,
-    continent_des_origines: 0,
-    forêt_de_tryshia: 0,
-    archipel_des_ymhzah: 0
+    sinoone: 0,
+    orighanh: 0,
+    hyldrabyssa: 0,
+    ymhzah: 0,
+    spaenha: 0
 }
 
 //Liste d'images de fond d'écran
@@ -66,6 +65,26 @@ fetch('data/questions_bank.json')
 
             //On réccupère la fonction dans notre variable créée précedemment et on la stock dans une variable
             currentQuestion = questions[currentQuestionIndex];
+
+            if (currentQuestion.text === ""){
+                const image = document.createElement('img');
+                image.classList.add('quizz_infos');
+                image.src = "images/unfinished_quizz.png";
+                document.body.appendChild(image);
+
+                const returnButton = document.createElement('img');
+                returnButton.classList.add('return_button');
+                returnButton.src = "images/arrow_2.png";
+                document.body.appendChild(returnButton);
+
+                returnButton.addEventListener('click', () => {
+                    history.back();
+                });
+
+
+                const nextButton = document.querySelector('#next-button');
+                nextButton.classList.add('hidden');
+            }
 
             //Afficher le test de la question (en le stockant également dans une variable)
             //const questionText = document.getElementById('question-text');
@@ -214,7 +233,6 @@ fetch('data/questions_bank.json')
                     }
 
                     const url = `result_quizz_lieux.html?maxLieu=${encodeURIComponent(maxLieu)}`;
-
                     window.location.href = url;
 
 

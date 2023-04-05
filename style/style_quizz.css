@@ -19,9 +19,9 @@ body {
 }
 
 h2 {
-    text-indent: 50px;
     font-size: 2.5em;
     line-height: 1.3;
+    text-align: center;
 }
 
 li {
@@ -96,6 +96,25 @@ canvas {
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
+.hidden {
+    opacity: 0;
+}
+
+.quizz_infos {
+    width: 42%;
+    height: auto;
+    position: absolute;
+    display: block;
+    bottom: 0;
+}
+
+.return_button {
+    width: 13%;
+    position: absolute;
+    bottom: 5%;
+    right: 55%;
+}
+
 /* Classes html */
 
 /* ID Html */
@@ -115,8 +134,8 @@ canvas {
 #questions-container {
     width: 41%;
     height: auto;
-    margin-top: 8%;
-    margin-left: 4%;
+    margin-top: 14%;
+    margin-left: 3%;
     margin-right: 0;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }

@@ -77,7 +77,7 @@ fetch('data/questions_bank.json')
     .then(response => response.json())
     .then(data => {
         // Stocker les questions dans une variable
-        const questions = data.lieux;
+        const questions = data.don;
         console.log(questions);
 
         //Initialiser l'indice de la question actuelle
@@ -95,6 +95,26 @@ fetch('data/questions_bank.json')
 
             //On réccupère la fonction dans notre variable créée précedemment et on la stock dans une variable
             currentQuestion = questions[currentQuestionIndex];
+
+            if (currentQuestion.text === ""){
+                const image = document.createElement('img');
+                image.classList.add('quizz_infos');
+                image.src = "images/unfinished_quizz.png";
+                document.body.appendChild(image);
+
+                const returnButton = document.createElement('img');
+                returnButton.classList.add('return_button');
+                returnButton.src = "images/arrow_2.png";
+                document.body.appendChild(returnButton);
+
+                returnButton.addEventListener('click', () => {
+                    history.back();
+                });
+
+
+                const nextButton = document.querySelector('#next-button');
+                nextButton.classList.add('hidden');
+            }
 
             //Afficher le test de la question (en le stockant également dans une variable)
             //const questionText = document.getElementById('question-text');

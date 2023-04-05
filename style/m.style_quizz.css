@@ -35,9 +35,9 @@ button img {
 }
 
 h2 {
-    text-indent: 50px;
     font-size: 3.5em;
     line-height: 1.5;
+    text-align: center;
 }
 
 li {
@@ -81,6 +81,23 @@ input[type=radio] {
 .text-focus-in-animation {
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
+.quizz_infos {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.return_button {
+    position: absolute;
+    bottom: 2%;
+    left: 70%;
+}
+
+.hidden {
+    opacity: 0;
+}
 /* Classes html */
 
 /* ID Html */
@@ -102,7 +119,7 @@ input[type=radio] {
     width: 85%;
     height: auto;
     margin-top: 8%;
-    margin-left: 10%;
+    margin-left: 9%;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
@@ -110,7 +127,7 @@ input[type=radio] {
     width: 80%;
     height: auto;
     margin-top: 8%;
-    margin-left: 3%;
+    margin-left: 4%;
     text-align: center;
 }
 

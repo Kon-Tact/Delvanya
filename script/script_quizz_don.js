@@ -75,6 +75,26 @@ fetch('data/questions_bank.json')
             //On réccupère la fonction dans notre variable créée précedemment et on la stock dans une variable
             currentQuestion = questions[currentQuestionIndex];
 
+            if (currentQuestion.text === ""){
+                const image = document.createElement('img');
+                image.classList.add('quizz_infos');
+                image.src = "images/unfinished_quizz.png";
+                document.body.appendChild(image);
+
+                const returnButton = document.createElement('img');
+                returnButton.classList.add('return_button');
+                returnButton.src = "images/arrow_2.png";
+                document.body.appendChild(returnButton);
+
+                returnButton.addEventListener('click', () => {
+                    history.back();
+                });
+
+
+                const nextButton = document.querySelector('#next-button');
+                nextButton.classList.add('hidden');
+            }
+
             //Afficher le test de la question (en le stockant également dans une variable)
             //const questionText = document.getElementById('question-text');
             questionText.textContent = currentQuestion.text;

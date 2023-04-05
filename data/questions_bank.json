@@ -2,21 +2,21 @@
     "lieux" : [
         {
             "id": "q1",
-            "text": "Question 1 : Les vacances approchent et la grande question revient comme chaque annees ! Ou preferez vous passer votre temps ?",
+            "text": "En vacance quelle serait votre activité préférée ? ",
             "options": [
                 {
+                    "value": "sinoone",
+                    "text": "Une virée dans une forêt dense et sauvage",
+                    "weight": 3
+                },
+                {
                     "value": "draerg",
-                    "text": "La plage",
+                    "text": "l’exploration d’une crevasse immergée",
                     "weight": 3
                 },
                 {
-                    "value": "falaise_de_sinoone",
-                    "text": "La montagne",
-                    "weight": 3
-                },
-                {
-                    "value": "village_dorighanh",
-                    "text": "La forêt",
+                    "value": "orighanh",
+                    "text": "Une expédition dans une caverne mystérieuse",
                     "weight": 3
                 }
             ]
@@ -24,295 +24,316 @@
         },
         {
             "id": "q2",
-            "text": "Question 2 : Dans la vie on s'accorde a dire que vous etes plutot :",
+            "text": "On dit de vous que vous êtes plutôt ?",
             "options": [
                 {
-                    "value": "village_de_spaenha",
-                    "text": "Une tete brulee aventureuse",
-                    "weight": 2
+                    "value": "hyldrabyssa",
+                    "text": "Réfléchis et consciencieux(se) ",
+                    "weight": 3
                 },
                 {
-                    "value": "continent_des_origines",
-                    "text": "Reflechis et consciencieux(se)",
-                    "weight": 2
+                    "value": "ymhzah",
+                    "text": "Explorateur(trice) passionné(e) et aventureux(se)",
+                    "weight": 3
                 },
                 {
-                    "value": "forêt_de_tryshia",
-                    "text": "Explorateur passione(e)",
+                    "value": "draerg",
+                    "text": "Flemmard(e) invétéré(e)",
                     "weight": 2
                 }
             ]
         },
         {
             "id": "q3",
-            "text": "Question 3 : Vous preferez generalement passer du temps dans des lieux :",
+            "text": "Quelle est l’ambiance que vous recherchez dans un nouveau lieu ?",
             "options": [
                 {
-                    "value": "archipel_des_ymhzah",
-                    "text": "Populaires",
+                    "value": "orighanh",
+                    "text": "Animée et passionnée",
                     "weight": 2
                 },
                 {
-                    "value": "village_dorighanh",
-                    "text": "Verdoyants",
-                    "weight": 2
+                    "value": "draerg",
+                    "text": "Silencieuse et apaisante",
+                    "weight": 3
                 },
                 {
-                    "value": "continent_des_origines",
-                    "text": "Charges d'histoire",
-                    "weight": 2
+                    "value": "spaenha",
+                    "text": "Cozy et paisible",
+                    "weight": 3
                 }
             ]
         },
         {
             "id": "q4",
-            "text": "Question 4 : Quand on vous parle d'un bon bol d'air frais vous pensez directement ?",
+            "text": "Qu’est-ce qui vous correspond le plus socialement ?",
             "options": [
                 {
-                    "value": "falaise_de_sinoone",
-                    "text": "L'air frais de la montagne!",
-                    "weight": 3
-                },
-                {
-                    "value": "draerg",
-                    "text": "L'air vivifiant et charge d'ecumes de la mer !",
+                    "value": "hyldrabyssa",
+                    "text": "Vous avez votre petit noyaux dur et vous ne vous en éloignez pas trop",
                     "weight": 2
                 },
                 {
-                    "value": "village_de_spaenha",
-                    "text": "L'air riche et sauvage d'une jungle luxuriante !",
+                    "value": "spaenha",
+                    "text": "Vous êtes timide mais rencontrez de nouvelles têtes avec plaisir",
+                    "weight": 2
+                },
+                {
+                    "value": "orighanh",
+                    "text": "Vous n’avez aucun mal a allez vers les autres et a vous faire de nouveaux amis",
                     "weight": 3
                 }
             ]
         },
         {
             "id": "q5",
-            "text": "Question 5 : C'est decide ! Aujourd'hui vous dormez a la belle etoile ! Quel sera votre point de chute ?",
+            "text": "Parmi ces expériences vestimentaires qu’est-ce qui vous attirerait le plus ?",
             "options": [
                 {
-                    "value": "forêt_de_tryshia",
-                    "text": "Une ile. Enfin un peu de tranquilite.",
-                    "weight": 3
+                    "value": "draerg",
+                    "text": "Une sorte de combinaison de plongée faite en algue avec des nageoires et un queue de poisson",
+                    "weight": 2
                 },
                 {
-                    "value": "falaise_de_sinoone",
-                    "text": "La montagne",
-                    "weight": 3
+                    "value": "sinoone",
+                    "text": "Une grande cape vous permettant de planer dans les airs",
+                    "weight": 2
                 },
                 {
-                    "value": "village_dorighanh",
-                    "text": "La forêt",
+                    "value": "spaenha",
+                    "text": "Une tenue faites en champignons colorés qui vous tempère et vous fais supporter l’humidité",
                     "weight": 3
                 }
             ]
         },
         {
             "id": "q6",
-            "text": "Question 6 : Vous vous etes bien reposes mais a present vous avez envie de faire voyager votre esprit et de vous interogger. Qu'est-ce qui pique votre interet ?",
+            "text": "Si vous deviez dormir a la belle étoile quel serait l’endroit rêvé pour vous ?",
             "options": [
                 {
-                    "value": "archipel_des_ymhzah",
-                    "text": "D'anciennes ecritures mysterieuse sur une stele dans un musee",
+                    "value": "ymhzah",
+                    "text": "Sur une île pour être enfin tranquille",
                     "weight": 2
                 },
                 {
-                    "value": "village_de_spaenha",
-                    "text": "La ruine de ce qui pourrait bien etre un ancien temple.",
-                    "weight": 3
+                    "value": "spaenha",
+                    "text": "Dans une forêt verdoyante pour être au plus proche de la nature",
+                    "weight": 2
                 },
                 {
-                    "value": "forêt_de_tryshia",
-                    "text": "Une vieille epave abandonnee.",
+                    "value": "hyldrabyssa",
+                    "text": "Et pourquoi pas dans une grotte sous-marine ?",
                     "weight": 3
                 }
             ]
         },
         {
             "id": "q7",
-            "text": "Question 7 : En rentrant, vous decidez d'acheter un livre car vous etes loin d'avoir suffisamment profite de vos vacances",
+            "text": "Vous êtes plutôt amateur de côtes ou de montagnes ?",
             "options": [
                 {
-                    "value": "archipel_des_ymhzah",
-                    "text": "\"Les coins les plus meirveilleux de votre localite\"",
+                    "value": "sinoone",
+                    "text": "Clairement c’est a la montagne qu’on a la meilleure vue",
                     "weight": 3
                 },
                 {
-                    "value": "continent_des_origines",
-                    "text": "\"Les lieux historiques incoutournables\"",
+                    "value": "ymhzah",
+                    "text": "Qui dit vacance dit baignade non ?",
                     "weight": 3
                 },
                 {
-                    "value": "draerg",
-                    "text": "\"Les plus belles plages du mondes\"",
+                    "value": "spaenha",
+                    "text": "Rien de tout ça ! La forêt il n’y a que ça de vrai !",
                     "weight": 3
                 }
             ]
         },
         {
             "id": "q8",
-            "text": "",
+            "text": "Quel est le mystère qui attises le plus votre curiosité ?",
             "options": [
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "hyldrabyssa",
+                    "text": "Une gigantesque plante sous marine qui créé de l’oxygène",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "sinoone",
+                    "text": "Une créature qui peut faire s’élever des pan de terre entier",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "draerg",
+                    "text": "Une abysse insondable et intimidante",
+                    "weight": 3
                 }
             ]
         },
         {
             "id": "q9",
-            "text": "",
+            "text": "Quelles sont vos préférences culinaires ?",
             "options": [
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "orighanh",
+                    "text": "Vous aimez manger de tout et découvrir de nouvelles choses",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "spaenha",
+                    "text": "Vous êtes du genre a mettre de l’huile partout",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "ymhzah",
+                    "text": "Vous êtes un(e) grand(e) amateur(trice) de produits de la mer",
+                    "weight": 2
                 }
             ]
         },
         {
             "id": "q10",
-            "text": "",
+            "text": "Dans un jeu de rôle vous seriez plutôt …",
             "options": [
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "orighanh",
+                    "text": "Le marchand qui trouve toujours le moyen de faire du troc et qui a l’inventaire toujours plein",
+                    "weight": 3
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "sinoone",
+                    "text": "Le voleur qui trouve toujours une astuce pour s’échapper",
+                    "weight": 3
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "spaenha",
+                    "text": "L’herboriste qui a toujours une plante qui convient a la situation",
+                    "weight": 3
                 }
             ]
         },
         {
             "id": "q11",
-            "text": "",
+            "text": "Qu’est-ce que l’océan vous évoque ?",
             "options": [
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "orighanh",
+                    "text": "De longues croisières en bateau, les cheveux aux vent en entonnant des airs marins",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "ymhzah",
+                    "text": "Des îles mystérieuses et inconnues a explorer",
+                    "weight": 3
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "hyldrabyssa",
+                    "text": "L’exploration de magnifique récifs coralliens et des paysages sous marins",
+                    "weight": 3
                 }
             ]
         },
         {
             "id": "q12",
-            "text": "",
+            "text": "Pour vous votre ville doit être :",
             "options": [
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "draerg",
+                    "text": "Un espace tranquille ou vous pouvez vous reposer et ne pas être embêté",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "hyldrabyssa",
+                    "text": "Un lieu où l’on peut recevoir ses amis et voisins pour passer un bon moment ensemble",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "orighanh",
+                    "text": "Une zone de partage d’expériences entre explorateurs toujours animée et pleine de vie",
+                    "weight": 3
                 }
             ]
         },
         {
             "id": "q13",
-            "text": "",
+            "text": "Si vous deviez acheter un livres d’histoire il porterait plutôt sur :",
             "options": [
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "hyldrabyssa",
+                    "text": "La découverte d’un peuple ayant du s’adapter a la vie aquatique",
+                    "weight": 3
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "ymhzah",
+                    "text": "Les récits d’une tribu mystérieuse peuplant un archipel au nord du continent connu",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "draerg",
+                    "text": "La rencontre entre deux espèces distincte et la relation de vie en symbiose qui en découle",
+                    "weight": 3
                 }
             ]
         },
         {
             "id": "q14",
-            "text": "",
+            "text": "Pour vous il n’y a pas débat ! L’exploration se fait :",
             "options": [
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "sinoone",
+                    "text": "Par les airs !",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "orighanh",
+                    "text": "Par la mer !",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "ymhzah",
+                    "text": "Peu importe … L’important c’est la curiosité !",
+                    "weight": 3
                 }
             ]
         },
         {
             "id": "q15",
-            "text": "",
+            "text": "Votre forêt rêvée est",
             "options": [
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "sinoone",
+                    "text": "Dense et mystérieuse mais surtout … Elle vole",
+                    "weight": 3
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "spaenha",
+                    "text": "C’est une forêt tout ce qu’il y a de plus banal … Si on oublie que les arbres sont majoritairement des champignons",
+                    "weight": 2
                 },
                 {
-                    "value": "",
-                    "text": "",
-                    "weight": 0
+                    "value": "draerg",
+                    "text": "C’est une forêt d’algue et de corail car pourquoi ne serait-elle pas aquatique ?",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "id": "q16",
+            "text": "Vous êtes perdu et un autochtone vous vient en aide … Vous préférez vous réveiller :",
+            "options": [
+                {
+                    "value": "sinoone",
+                    "text": "En forêt, être en pleine nature est-ce que c’est vraiment être perdu ?",
+                    "weight": 2
+                },
+                {
+                    "value": "ymhzah",
+                    "text": "Sur une île, si je suis perdu autant que ce soit paradisiaque !",
+                    "weight": 2
+                },
+                {
+                    "value": "hyldrabyssa",
+                    "text": "Sous le niveau de la mer, les mystères des fonds marins sont fascinants",
+                    "weight": 2
                 }
             ]
         }
