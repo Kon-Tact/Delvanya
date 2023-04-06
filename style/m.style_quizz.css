@@ -74,7 +74,7 @@ input[type=radio] {
 .random-background {
     background-image: url("");
     background-repeat: no-repeat;
-    background-size: 130% ;
+    background-size: 140% ;
 }
 /* partie de gestion du background random */
 
